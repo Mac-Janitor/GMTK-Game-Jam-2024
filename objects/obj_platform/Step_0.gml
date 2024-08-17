@@ -1,3 +1,9 @@
+// Check if the platform is collided with the player
+if (!place_meeting(x, y, obj_player))
+{
+	collision_occurred = false;
+}
+
 if (can_move)
 {
 	if (y > 256 && movement_amt > 0)

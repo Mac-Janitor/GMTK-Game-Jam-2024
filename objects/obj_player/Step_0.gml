@@ -1,21 +1,26 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-// Reset the scale to default (circular shape)
-//image_xscale = 1;
-//image_yscale = 1;
-
 // Check if a key is held down (e.g., the space bar)
-if (keyboard_check(vk_space)) {
+if (keyboard_check(vk_space)) 
+{
 	
-	var actual_height = sprite_height * image_yscale;
+	image_yscale += 0.01; // Increase the scale
 	
-	//show_debug_message("" + actual_height);
-	
-	if (actual_height < room_height)
+	if (starting_y_position > 256)
 	{
-	    // Stretch the blob into an ellipse
-	    //image_xscale += 0.5; // Increase the horizontal scale
-	    image_yscale += 0.1; // Decrease the vertical scale		
+		var _new_sprite_height = starting_sprite_height * image_yscale;
+		var _height_difference = _new_sprite_height - starting_sprite_height;
+		
+		show_debug_message("y: {0}", y);
+		show_debug_message("starting_y_position: {0}", starting_y_position);
+		show_debug_message("Sprite Height: {0}", sprite_height);
+		show_debug_message("Starting Sprite Height: {0}", starting_sprite_height);
+		show_debug_message("Height Difference: {0}", _height_difference);		
+		
+		
+		y =  starting_y_position - _height_difference;
 	}
+	
 }
+
