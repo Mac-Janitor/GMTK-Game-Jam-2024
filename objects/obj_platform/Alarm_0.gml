@@ -1,0 +1,1 @@
+can_move = true; //Now the object can move
