@@ -21,6 +21,6 @@ if (!collision_occurred)
 if (player_can_move)
 {
 	obj_player.x += movement_amt;
-	alarm[1] = room_speed * 1; //1-second delay before movement triggers again
+	alarm[1] = room_speed * platform_speed; //1-second delay before movement triggers again
 	player_can_move = false;
 }

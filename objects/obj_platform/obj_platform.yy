@@ -39,6 +39,7 @@
     {"$GMObjectProperty":"v1","%Name":"movement_amt","filters":[],"listItems":[],"multiselect":false,"name":"movement_amt","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"50","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"top_spawn_y","filters":[],"listItems":[],"multiselect":false,"name":"top_spawn_y","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"64","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"bottom_spawn_y","filters":[],"listItems":[],"multiselect":false,"name":"bottom_spawn_y","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"416","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"platform_speed","filters":[],"listItems":[],"multiselect":false,"name":"platform_speed","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.5","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

@@ -12,7 +12,7 @@ if (can_move)
 	}
 	x += movement_amt;
 	can_move = false;
-	alarm[0] = room_speed * 1; //1-second delay before movement triggers again
+	alarm[0] = room_speed * platform_speed; //1-second delay before movement triggers again
 }
 
 if (x < 0 -sprite_width || x > room_width) 
