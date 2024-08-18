@@ -8,7 +8,7 @@ if (keyboard_check(vk_space))
 }
 else if (image_yscale > 1)
 {
-	image_yscale -= stretch_speed; // Increase the scale
+	image_yscale -= stretch_speed; // Decrease the scale
 }
 
 if (starting_y_position > 256)
